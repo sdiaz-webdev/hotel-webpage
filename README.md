@@ -1,2 +1,2 @@
 # hotel-webpage
-A mock Hotel page (First project)
+A mock Hotel page (First project - non responsive)
