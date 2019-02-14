@@ -192,6 +192,30 @@ p {
   margin-bottom: 10px; 
 }
 
+
+/* === === === === === === === === === === === About page=== === === === === === === === === === */
+
+/* === === === === === === === === === === === First section === === === === === === === === === === */
+
+#about-info .info-right {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+
+#about-info .info-left {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
 /* === === === === === === === === === === === Footer === === === === === === === === === === */
 
 #main-footer {
