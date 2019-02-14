@@ -1,0 +1,202 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html,body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px; /* Done because we took all padding and margin away and we want some space in between the titles and p. */
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility Classes  === === === === ********** */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;   /*  So background shows no matter what*/ 
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #a51922;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: snow;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.btn-light {
+  background: #fffafa;
+  color: #333;
+}
+.btn:hover {
+  background:  #b29600;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fffafa;
+}
+.bg-light {
+  background: #fffafa;
+  color: #333;
+}
+.bg-primary {
+  background: #b29600;
+  color:#333;
+}
+
+.clr {
+  clear: both;    /* IMPORTANT to clear after the boxes */
+}
+
+/* === === === === === === === === === === === Navigation Bar === === === === === === === === === === */
+
+#navbar {
+  background: #333;
+  color: #fffafa;
+  overflow: auto; /*  So background shous no matter what*/ 
+}
+
+#navbar a {
+  color: #fffafa;
+}
+
+/* Align the logo with the rest of nav bar. Ussualy flex box would be used. */
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current  {
+  background: #444;
+  color: #b29600;
+}   /* This effect can be added to all pages by adding a class to the heading a tag */
+
+
+/* === === === === === === === === === === === Showcase Section === === === === === === === === === === */
+
+#showcase {
+  background-image: url(../img/Front-cover.jpeg);
+  height: 600px;
+  background-position:center center;
+  background-size: cover;
+}
+
+#showcase .showcase-content {
+  color: #fffafa;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* === === === === === === === === === === === Home info === === === === === === === === === === */
+
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img {
+  float: left;
+  background: url("../img/Stairscase.jpeg") no-repeat center center/cover; /* When using the "" arount the image link then you can put the no-repeat and center stuff within it.*/
+  width: 50%;
+  min-height: 100%; /* We want image to take the whole space*/
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 60px 30px;
+  overflow: hidden;   /* So if anything goes outside the queare there are no moving bars*/
+}
+
+#home-info .info-content h2 {
+  font-size: 28px;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* === === === === === === === === === === === Features - 3 Boxes === === === === === === === === === === */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i { /* This "i" gets the icon*/ 
+  margin-bottom: 10px; 
+}
+
+/* === === === === === === === === === === === Footer === === === === === === === === === === */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fffafa;
+  padding: 10px;
+}
