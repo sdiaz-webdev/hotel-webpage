@@ -80,6 +80,16 @@ p {
   clear: both;    /* IMPORTANT to clear after the boxes */
 }
 
+.lg-heading {
+  font-size: 40px;
+}
+
+/* Padding Utilities */
+
+.py-1 {padding: 10px;}
+.py-2 {padding: 20px;}
+.py-3 {padding: 30px;}
+
 /* === === === === === === === === === === === Navigation Bar === === === === === === === === === === */
 
 #navbar {
@@ -198,20 +208,23 @@ p {
 /* === === === === === === === === === === === First section === === === === === === === === === === */
 
 #about-info .info-right {
-  float: left;
+  float: right;
   width: 50%;
   min-height: 100%;
+  
 }
 
 #about-info .info-right img {
-  width: 70%;
+  width: 100%;
   display: block;
   margin: auto;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 
 #about-info .info-left {
-  float: right;
+  float: left;
   width: 50%;
   min-height: 100%;
 }
