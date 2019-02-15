@@ -211,7 +211,6 @@ p {
   float: right;
   width: 50%;
   min-height: 100%;
-  
 }
 
 #about-info .info-right img {
@@ -226,6 +225,29 @@ p {
 #about-info .info-left {
   float: left;
   width: 50%;
+  min-height: 100%;
+  padding-top: 10px;
+
+}
+
+
+/* === === === === === === === === === === === Testimonials === === === === === === === === === === */
+
+#testimonials {
+  height: 600px;
+  background: url("../img/bricks.jpeg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+#testimonials .testimonial img {
+  
+  width: 100%;
+  
+}
+
+#testimonials .testimonial p {
+  float: right;
+  width: 100%;
   min-height: 100%;
 }
 
