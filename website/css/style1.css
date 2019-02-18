@@ -233,6 +233,33 @@ p {
 
 /* === === === === === === === === === === === Testimonials === === === === === === === === === === */
 
+#testimonials {
+  height: 600px;
+  background: url("../img/bricks.jpeg") no-repeat center center/cover;
+  padding-top: 60px;
+}
+
+#testimonials h2{
+  color: snow;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 50px;
+  overflow: auto;
+  border-radius: 3px;
+  opacity: 0.85;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20PX;
+  border-radius: 50%;
+}
 
 
 /* === === === === === === === === === === === Footer === === === === === === === === === === */
