@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Welcome to the best hotel in Ottawa Ontario">
+  <meta name="keywords" content="hotel, ottawa hotel, ottawa, stay in ottawa">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style1.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Hotel OTH | Contact</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar"> <!-- This will contain the logo and the nav bar-->
+
+      <!-- Create a container class inside the nav bar so you can move the items inside and still have the black going across. -->
+      <div class="container">
+        <h1 class="logo"> <a href="index.html">OTH</a></h1>   <!-- a tag around so when clicked it goes to the welcome page-->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      
+      <h1 class="lg-heading"><span class="text-primary">Contact</span> Us</h1>
+      <p>Please fill out the form below to contact us</p>
+
+      <!-- Form content -->
+      <form action="process.php"></form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="message">Email</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+
+    </div>
+  </section>
+
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+      <div class="box">
+        <!-- Font awesome.. copy the lin and then adjust size by adding the "fa-3x" (it goes 2x-5x) -->
+        <i class="fas fa-map-marked-alt fa-3x"></i>
+        <h3>Location</h3>
+        <p>100 Laurier, Ottawa Canada</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-phone fa-3x"></i>
+        <h3>Phone Number</h3>
+        <p>(613) 865-5663</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i> 
+        <h3>Email Address</h3>
+        <p>OTH@hotelottawa.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <p>Hotel OTH &copy; 2019, All Rights Reserved</p>
+  </footer>
+
+
+</body>
+</html>
